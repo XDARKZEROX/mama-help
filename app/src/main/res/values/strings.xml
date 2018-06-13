@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mamahelp</string>
+    <string name="login_email_hint">Ingrese su correo</string>
+    <string name="login_password_hint">Ingrese su contraseña</string>
+</resources>
