@@ -1,5 +1,15 @@
 
 # Created by https://www.gitignore.io/api/androidstudio
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+ehthumbs.db
+Thumbs.db
 
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
