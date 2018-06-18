@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/txt_titulo"
-        android:layout_width="161dp"
-        android:layout_height="42dp"
+        android:layout_width="202dp"
+        android:layout_height="38dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -21,19 +21,18 @@
         android:gravity="center"
         android:text="Mama Help"
         android:textColor="#dc58a1"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/emailLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.868" />
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/emailLayout"
         android:layout_width="265dp"
-        android:layout_height="51dp"
+        android:layout_height="47dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -45,14 +44,14 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025">
+        app:layout_constraintVertical_bias="0.478">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/inputEmail"
             android:layout_width="261dp"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:hint="@string/login_email_hint" />
+            android:hint="@string/login_email_hint"
+            android:inputType="textEmailAddress" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -70,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailLayout"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.604">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/inputPassword"
@@ -90,7 +89,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@color/colorPink"
+        android:background="@drawable/login_button"
         android:text="Iniciar Sesión"
         android:textColor="#d9d6d6"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,7 +97,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.569" />
+        app:layout_constraintVertical_bias="0.628" />
 
     <TextView
         android:id="@+id/textView2"
@@ -116,9 +115,8 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_login_submit"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.063" />
 
 </android.support.constraint.ConstraintLayout>

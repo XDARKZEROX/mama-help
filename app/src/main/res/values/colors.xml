@@ -4,5 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorPink">#e6459e</color>
-    <color name="colorBackground">#f7f7f7</color>
+    <color name="colorPinkOnClick">#ab1d6b</color>
+    <color name="colorBackground">#fcf7f7</color>
+    <color name="buttonWelcomeColor">#2f374e</color>
+
 </resources>

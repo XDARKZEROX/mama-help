@@ -2,4 +2,8 @@
     <string name="app_name">Mamahelp</string>
     <string name="login_email_hint">Ingrese su correo</string>
     <string name="login_password_hint">Ingrese su contraseña</string>
+    <string name="welcome_description">
+        Te damos la Bienvenida a Mama Help,
+        \nProductos de calidad y excelencia en servicio!!"
+    </string>
 </resources>
