@@ -7,5 +7,5 @@
     <color name="colorPinkOnClick">#ab1d6b</color>
     <color name="colorBackground">#fcf7f7</color>
     <color name="buttonWelcomeColor">#2f374e</color>
-
+    <color name="buttonWelcomeColorPressed">#374674</color>
 </resources>

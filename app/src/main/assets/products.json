@@ -1,12 +1,44 @@
-[
-  {
-    "codigo": "01",
-    "titulo": "pañal pampers",
-    "precio": 10.40
-  },
-  {
-    "codigo": "02",
-    "titulo": "Toalla para bebes",
-    "precio": 5.10
-  }
-]
+{
+  "products": [
+    {
+      "codigo": "01",
+      "titulo": "Pañales pampers",
+      "image" : "https://s3-sa-east-1.amazonaws.com/laanonima-backup/web/images/productos/b/0000003000/3696.jpg",
+      "precio": 10.40
+    },
+    {
+      "codigo": "02",
+      "titulo": "Toallitas húmedas",
+      "image" : "https://p7014283.vo.llnwd.net/e1/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/8/1/81roi-bwsal._sl1500_/Toallas-Humedas-para-Bebe-recien-nacido-Huggies-31.jpg",
+      "precio": 5.00
+    },
+    {
+      "codigo": "03",
+      "titulo": "Tomatodo",
+      "image" : "https://www.babyplaza.com.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/o/toma_todo_mapache.jpg",
+      "precio": 9.99
+    },{
+      "codigo": "04",
+      "titulo": "Perfume Jhonson",
+      "image" : "https://fimgs.net/images/perfume/375x500.35209.jpg",
+      "precio": 10.00
+    },{
+      "codigo": "05",
+      "titulo": "Chupetin",
+      "image" : "https://plazavea.vteximg.com.br/arquivos/ids/180533-450-450/20105707.jpg",
+      "precio": 5.00
+    },
+    {
+      "codigo": "06",
+      "titulo": "Kit AMMENS",
+      "image" : "https://plazavea.vteximg.com.br/arquivos/ids/174148-1000-1000/1742597001.jpg",
+      "precio": 40.00
+    },
+    {
+      "codigo": "07",
+      "titulo": "30% Avent Twin Pack Biberón Natural 260 ml",
+      "image" : "https://wongfood.vteximg.com.br/arquivos/ids/171935-1000-1000/frontal.jpg",
+      "precio": 51.80
+    }
+  ]
+}
